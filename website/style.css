@@ -1,6 +1,6 @@
 html { color-scheme: light dark; }
 body { min-height: 100vh; width: 35em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
+    font-family: Tahoma, Verdana, Arial, sans-serif; }
 header { min-height: 50px; margin-top: auto;}
 footer { min-height: 50px; }
 
