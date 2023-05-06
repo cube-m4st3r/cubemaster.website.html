@@ -1,21 +1,77 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>cube_master's website</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-    <body>
-        <header>
-            <h1>
-                cube_master's homepage
-            </h1>
-        </header>
-        <article>
-            <p>This website is under construction.</p>
-        </article>
-        <footer>
-            <p>Visit my project on <a href="https://github.com/cube-m4st3r/cubemaster.website.html" target="_blank">Github!</a></p>
-            <p>Or visit my <a href="https://github.com/cube-m4st3r" target="_blank">profile.</a></p>
-        </footer>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Site</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header class="sticky-header">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+  <section class="hero">
+    <div class="hero-container">
+      <span id="hero-title">
+        <h1 class="hero-title">Welcome to My Developer Site</h1>
+      </span>
+      <p class="hero-text">Take a look at my work and future plans!</p>
+      <a href="#projects" class="hero-btn">Learn More</a>
+    </div>
+  </section>
+  
+  <div class="about-section" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <div class="about-description">
+        <p>Hi there, I'm cubemaster, an Engineer in training. I'm passionate about Developing and enjoy games a lot. I'm skilled in Python and Data Management and have worked with MySQL, SQLite3, JS, Java.</p>
+      </div>
+      <div class="about-cta">
+        <a class="btn">Download Resume [currently unavailable]</a>
+      </div>
+    </div>
+  </div>
+  <section class="github-section" id="projects">
+    <div class="container">
+      <h2>GitHub Projects</h2>
+      <div class="github-cards">
+        <a href="https://github.com/JanikCodes/tarnished_souls" class="github-card">
+          <h3>TarnishedSouls</h3>
+          <p>An Elden Ring discord bot.</p>
+        </a>
+        <a href="https://www.cubemaster.dev/fae" class="github-card">
+          <h3>Fae, private discord bot.</h3>
+          <p>Just what it says! I might make it public once I got some development on it</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://www.cubemaster.dev/legal/privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>2023 cubemaster</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
